@@ -15,4 +15,3 @@ def test_incorrect_word_returns_true() -> None:
 
 def test_word_is_capitalized_but_it_is_repeated() -> None:
     assert is_isogram("Adam") is False
-
